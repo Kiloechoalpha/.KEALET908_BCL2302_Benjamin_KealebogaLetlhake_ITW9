@@ -86,11 +86,11 @@ li {
 }
 
 
-.container .bottom {
+.grid-container .bottom {
     position: relative;
     padding: 50px;
     padding-bottom: 50px;
-    max-height: -5vh;
+    max-height: 1000vh;
 
 
 }
@@ -190,6 +190,14 @@ a {
 
 }
 
+.icons{
+    display: flex;
+   size: 500%;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
 form {
     background-color: rgb(96, 32, 32);
 }
@@ -197,12 +205,17 @@ form {
 /*For mobile display*/
 @media only screen and (min-width: 320px) {
     body {
-        background-color: grey
+        background-color: rgb(117, 89, 111);
     }
 
-    .container {
-        max-height: 360vh;
-
+    .grid-container {max-height: 355vh;
+        margin-right: -35px;
+        
+        
+    }
+    header{
+        margin-right: -60px;
+        
     }
 }
 
@@ -210,11 +223,17 @@ form {
 
 @media only screen and (min-width: 768px) {
     body {
-        background-color: rgb(95, 10, 76);
+        background-color: rgb(228, 50, 189);
     }
 
-    .container {
-        max-height: 283vh;
+    .grid-container {max-height: 300vh;
+       
+        margin-right: 60px;
+        
+    }
+    header{
+        margin-right: 60px;
+        
     }
 }
 
@@ -222,12 +241,15 @@ form {
 
 @media only screen and (min-width: 1100px) {
     body {
-        background-color: rgb(3, 90, 46);
+        background-color: rgba(3, 90, 46, 0.821);
 
     }
 
-    .container {
-        max-height: 226.5vh;
+    .grid-container {
+        max-height: 227.5vh;
+    }
+    header{
+        margin-right: 60px;
     }
 
 }
