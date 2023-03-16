@@ -7,16 +7,12 @@
 
 /*customizing the body and centering the content in the body*/
 body {
-
-
     justify-content: center;
     align-items: center;
     min-height: 10vh;
     background-color: rgb(117, 43, 43);
     margin-right: -300px;
     padding: 5px;
-
-
 }
 
 /*displaying in css grid*/
@@ -29,10 +25,7 @@ body {
     display: grid;
     grid-template-rows: 1fr 1.5fr;
     text-align: center;
-
     margin-top: -22px;
-
-
 }
 
 
@@ -43,8 +36,8 @@ body {
     background-position: top;
     background-size: cover;
     background-repeat: none;
-    padding: 50px;
-    margin-right: -60px;
+    padding: 40px;
+    margin-right: -100px;
 
 }
 
@@ -61,7 +54,6 @@ h1,
 h2,
 h3 {
     color: blue;
-
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: x-large;
     margin: 15px;
@@ -87,10 +79,7 @@ li {
 
 .grid-container .bottom {
     position: relative;
-   
     max-height: 100vh;
-
-
 }
 
 img {
@@ -213,10 +202,10 @@ form {
         max-height: 350vh;
         margin-right: -35px;
         margin-left: -35px;
-        
+
     }
 
-   .hero-image{
+    .hero-image {
         margin-right: -80px;
     }
 }
