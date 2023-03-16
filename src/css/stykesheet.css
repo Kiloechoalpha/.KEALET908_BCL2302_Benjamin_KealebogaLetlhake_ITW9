@@ -8,7 +8,7 @@
 /*customizing the body and centering the content in the body*/
 body {
 
-   
+
     justify-content: center;
     align-items: center;
     min-height: 10vh;
@@ -119,22 +119,20 @@ span {
 }
 
 /*placing the nav bar above the picture when the user first log in*/
-nav 
-{
+nav {
 
     justify-content: space-between;
     align-content: center;
     padding-top: 40px;
     margin-top: -35px;
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     word-spacing: 5px;
     border-radius: 50%;
     position: sticky;
 }
 
-nav ul li 
-{
+nav ul li {
     list-style: none;
     display: inline-block;
     padding: 20px;
@@ -178,7 +176,7 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-bottom: 10PX;
-    
+
 }
 
 .contacts {
@@ -189,14 +187,15 @@ a {
 
 }
 
-.icons{
+.icons {
     display: flex;
-   size: 500%;
+    size: 500%;
     justify-content: center;
     justify-content: space-around;
-    
-    
+
+
 }
+
 form {
     background-color: rgb(96, 32, 32);
     margin: 15px;
@@ -208,10 +207,12 @@ form {
         background-color: grey;
     }
 
-    .grid-container.bottom {max-height: 350vh;
-        margin-right: -35px; 
+    .grid-container.bottom {
+        max-height: 350vh;
+        margin-right: -35px;
     }
-    header{
+
+    header {
         margin-right: -60px;
     }
 }
@@ -223,14 +224,16 @@ form {
         background-color: rgb(71, 34, 5);
     }
 
-    .grid-container {max-height: 300vh;
+    .grid-container {
+        max-height: 300vh;
         box-shadow: 5px 4px 3px 5px black;
         margin-right: 60px;
-        
+
     }
-    header{
+
+    header {
         margin-right: 60px;
-        
+
     }
 }
 
@@ -246,7 +249,8 @@ form {
         max-height: 227.5vh;
         box-shadow: 5px 4px 3px 5px black;
     }
-    header{
+
+    header {
         margin-right: 60px;
     }
 
