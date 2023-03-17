@@ -53,7 +53,7 @@ body {
 h1,
 h2,
 h3 {
-    color: rgb(255, 0, 0);
+    color: rgba(234, 255, 0, 0.877);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: x-large;
     margin: 15px;
@@ -145,8 +145,9 @@ nav ul li a:hover {
 /*styling the lists*/
 a {
     text-decoration: none;
-    font-size: large;
-    color: rgb(166, 1, 255);
+    font-size: x-large;
+    font-weight: bold;
+    color: rgba(31, 1, 255, 0.862);
     margin: 10px;
 }
 
