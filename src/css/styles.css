@@ -1,0 +1,186 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.header-content {
+    margin-top: 20px;
+}
+
+.header-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #fff;
+}
+
+h1 {
+    margin-top: 10px;
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+/* Style the main content section */
+.main-content {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Style education, skills, hobbies, and contact sections */
+.education, .skills, .hobbies, .contact {
+    padding: 20px;
+    background-color: #444;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education h2, .skills h2, .hobbies h2, .contact h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.education-item, .skills-item {
+    margin-bottom: 10px;
+}
+
+.education-item h3, .skills-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skills-item ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.skills-item ul li {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Style the links */
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add spacing between sections */
+.section {
+    margin-bottom: 40px;
+}
+
+/* Add some extra spacing to the header content */
+.header-content {
+    margin-bottom: 20px;
+}
+
+/* Add a subtle border to the header image */
+.header-content img {
+    border: 4px solid #eee;
+}
+
+/* Style the form */
+form {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+form ul {
+    list-style: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #fff; /* Text color for labels */
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+    background-color: #222; /* Input background color */
+    color: #fff; /* Text color for inputs */
+}
+
+form input[type="submit"] {
+    background-color: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005ea6;
+}
+
+/* Style form validation error messages */
+form .error-message {
+    color: #ff0000;
+    font-size: 14px;
+}
+/* Style the image */
+img {
+    display: block;
+    border: 4px solid rgb(30, 30, 30);
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    object-fit: cover; /* Ensure the image covers the container */
+}
