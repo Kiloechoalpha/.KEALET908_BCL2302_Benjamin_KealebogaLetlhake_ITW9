@@ -7,26 +7,31 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <header class="text-center bg-dark text-white py-5">
             <div class="hero-image">
                 <div class="logo">
                     <h2>Resu<span>me</span></h2>
                 </div>
-                <nav>
-                    <ul class="nav">
-                        <li class="nav-item"><a class="nav-link" href="https://github.com/Kiloechoalpha">GitHub</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contacts">Contact-Details</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#employer">Employer-Info</a></li>
-                    </ul>
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="https://github.com/Kiloechoalpha">GitHub</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#contacts">Contact-Details</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#employer">Employer-Info</a></li>
+                        </ul>
+                    </div>
                 </nav>
                 <picture>
                     <source srcset="src/images/s.jpg" media="(max-width: 425px)">
                     <source srcset="src/images/m.jpg" media="(max-width: 900px)">
-                    <img src="src/images/l.jpg" alt="Kealeboga Letlhake - Software Engineer" class="img-fluid rounded-circle" style="max-width: 250px;">
+                    <img src="src/images/l.jpg" alt="Kealeboga Letlhake - Software Engineer" class="img-fluid rounded-circle" style="max-width: 225px;">
                 </picture>
                 <div class="hero-text">
                     <h1>Kealeboga Victory Letlhake</h1>
@@ -43,9 +48,9 @@
                     <h2 id="education">Education</h2>
                     <div class="education">
                         <div class="qualification1">
-                            <h3>Intro To Web</h3>
+                            <h3>Javascript Enginering </h3>
                             <a href="https://www.codespace.co.za/">CodeSpace Academy</a>
-                            <p>2023-2023</p>
+                            <p>2023-2024</p>
                         </div>
                         <div class="education2">
                             <h3>Matric Certificate</h3>
@@ -62,8 +67,11 @@
                             <ul class="list-unstyled">
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>Scratch</li>
-                                <li>Visual Studio Code</li>
+                                <li>JavaScript</li>
+                                <li>React</li>
+                                <li>Bootstrap</li>
+                                <li>Tailwind CSS</li>
+                            
                             </ul>
                         </div>
                         <div class="skills2">
@@ -125,7 +133,6 @@
         </div>
     </div>
 
-    <!-- Add Bootstrap JS and Popper.js -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
